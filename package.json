@@ -1,0 +1,11 @@
+{
+  "name": "edtech-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd client && npm ci && npm run build",
+    "start": "node server/server.js",
+    "start:server": "cd server && npm ci && npm start",
+    "start:client": "cd client && npm ci && npm start"
+  }
+}
